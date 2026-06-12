@@ -1,0 +1,9 @@
+numbers = [12, 45, 7, 23, 56, 89, 34]
+
+largest = max(numbers)
+second_largest = sorted(numbers)[-2]
+smallest = min(numbers)
+
+print("Largest element:", largest)
+print("Second largest element:", second_largest)
+print("Smallest element:", smallest)
